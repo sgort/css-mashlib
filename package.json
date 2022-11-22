@@ -1,0 +1,24 @@
+{
+  "name": "css-mashlib",
+  "version": "1.0.0",
+  "description": "CSS with mashlib recipe",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/solidos/css-mashlib.git"
+  },
+  "keywords": ["css", "mashlib", "node", "javascript"],
+  "author": "Alain Bourgeois",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/solidos/css-mashlib/issues"
+  },
+  "homepage": "https://github.com/solidos/css-mashlib#readme",
+  "dependencies": {
+    "@solid/community-server": "^5.1.0",
+    "mashlib": "^1.8.5"
+  }
+}
