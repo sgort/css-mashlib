@@ -4,13 +4,23 @@
   "description": "CSS with mashlib recipe",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npx community-solid-server -c ./config/config-mashlib.json -f ../css-data",
+    "clean": "rm -r ../css-data",
+    "start:clean": "npm run build && npm run clean && npm run start",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "templates": "cp -r templates/ ./node_modules/@solid/community-server/",
+    "build": "npm run templates"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/solidos/css-mashlib.git"
   },
-  "keywords": ["css", "mashlib", "node", "javascript"],
+  "keywords": [
+    "css",
+    "mashlib",
+    "node",
+    "javascript"
+  ],
   "author": "Alain Bourgeois",
   "license": "MIT",
   "bugs": {
