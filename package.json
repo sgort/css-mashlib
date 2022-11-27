@@ -28,5 +28,7 @@
   "homepage": "https://github.com/solidos/css-mashlib#readme",
   "dependencies": {
     "@solid/community-server": "^5.1.0",
-    "mashlib": "^1.8.5"  }
+    "mashlib": "^1.8.5",
+    "rdflib": "^2.2.21"
+  }
 }
