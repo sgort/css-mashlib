@@ -1,5 +1,7 @@
 # css-mashlib
-CSS with mashlib recipe and templates/pod
+CSS with mashlib recipe and NSS like templates/pod.
+
+This is a `http://localhost:3000` server for mashlib build test purpose. The repo is integrated with the [mashlib](https://github.com/SolidOS) stack build.
 
 ### config
 - package.json contains 2 dependencies :
@@ -9,9 +11,9 @@ CSS with mashlib recipe and templates/pod
   - mashlib version.
     
 - config files are located in `config` folder
-  - `config-mashlib.json` is derived from CSS `/config/config-mashlib.json` recipe.
+  - `config-mashlib.json` is derived from `/config/config-mashlib.json` [CSS mashlib recipe](https://github.com/communitySolidServer/recipe/mashlib).
     	
-	  - Enable setup by replacing in line `"css:config/app/setup/disabled.json"` `disabled` with 'required'. see https://gitter.im/solid/community-server?at=621347740909252318ed6c42
+	  - Enable setup by replacing in line `"css:config/app/setup/disabled.json"` `disabled` with 'required'. see [gitter im comment](https://gitter.im/solid/community-server?at=621347740909252318ed6c42)
     
     - **The file must be replaced for each new CSS mashlib recipe version - at least for the context version**
 
