@@ -4,7 +4,7 @@
   "description": "CSS with mashlib recipe",
   "main": "index.js",
   "scripts": {
-    "start": "npx community-solid-server -c ./config/config-mashlib.json ./config/override-pod-templates.json -f ./data",
+    "start": "npx community-solid-server --baseUrl https://mijnsolidpod.nl/ -c ./config/config-mashlib.json ./config/override-pod-templates.json -f ./data",
     "build": "echo \"Nothing to build.\"",
     "clean": "[ -d ./data ] && rm -rf ./data || true",
     "start:clean": "npm run clean &&  npm run start",
