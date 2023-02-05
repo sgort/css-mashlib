@@ -47,11 +47,7 @@
       "baseServerFactory": {
         "@id": "urn:solid-server:default:HttpServerFactory",
         "@type": "BaseHttpServerFactory",
-        "handler": { "@id": "urn:solid-server:default:HttpHandler" },
-        "options_showStackTrace": { "@id": "urn:solid-server:default:variable:showStackTrace" },
-        "options_https": true,
-        "options_key": "/etc/letsencrypt/live/mijnsolidpod.nl/privkey.pem",
-        "options_cert": "/etc/letsencrypt/live/mijnsolidpod.nl/fullchain.pem"
+        "handler": { "@id": "urn:solid-server:default:HttpHandler" }
       },
       "webSocketHandler": {
         "@type": "UnsecureWebSocketsProtocol",
